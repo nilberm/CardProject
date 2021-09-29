@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTS
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Yaldevi', sans-serif;
+font-family: 'Karla', sans-serif;
+*/
+
+body {
+    display: grid;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+/* MISSION CARD */
+#card {
+    display: grid;
+    width: 18.75rem;
+    height: 23.55rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: white;
+}
+
+#card .imagem {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#card .imagem img {
+    width: 7.375rem;
+    height: 9.833rem;
+
+}
+
+#card .nameElder h1 {
+    text-align: center;
+
+}
+
+#card .nameMission h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+#card .flag {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card .flag img {
+    width: 7.5rem;
+    height: 3.5rem;
+}
+
+#card .year h3 {
+    text-align: center;
+}
+
+#card .email h4 {
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* MISSION CARD FORMS */
+
+#forms {
+    display: grid;
+    width: 18.75rem;
+    height: 23.55rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    margin-top: 4rem;
+    background-color: white;
+}
+
+#formsBox{
+    display: grid;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+}
+.fotoText{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.boxText{
+    font-family: 'Karla', sans-serif;
+    padding: 0.75rem;
+    border: 0.01rem solid;
+    margin: 0.40rem;
+}
+.fileText{
+    margin: 0.40rem 0;
+    padding-left: 0.5rem;
+}
+
+#flagsSelection{
+    position: relative;
+    margin: 0.5 0;
+    padding-left: 0.5rem;
+    height: 2rem;
+    width: 15.5rem;
+    left: 0.4rem;
+
+}
+#sendBtn{
+    border: 0;
+    border-radius: 2rem;
+    background: chocolate;
+    color: white;
+    padding: 1rem;
+    margin: .5rem 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+#sendBtn:hover{
+    background: black;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Yaldevi:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <title>Mission Card</title>
+</head>
+
+<body>
+    <div id="card">
+        <div class="imagem">
+            <img id="photo" src="https://lh3.googleusercontent.com/MWzVZ04ZKU7QR_18jndiIzpHOfQPOszfbykqHeZSsBpadPyz0zkfCGmqGu73tYJcZpVgYjQnWRROjYI3RrZ5waqCNkjK49_RZCbwiSPL0heq5ltYsSed8nswHxR2Hje45yL61wWIKnJchabRyVYNkzRC8w0phT0wGHxGG9MD7ggVt4n2x-64zfmmlVFnI0vu-b1J9mX7j_hRyNhWAmxMXSf3grSh9tOrNZezlkWrwYRiIddMC9513zFNn2hCUc767sZtpPN1iELjIqJhR7749x3Vk101_C2SWqGkPJCo6jXeb8QNwB6m7nm66CMO1GrnU6pXTWOPNYsOfkqJxq1H6SQic_cXxE2sDoGhMvh5GMCMYd4xotESho1dhsxeHPGNzDbKXFjWJO04kHAomLZT3vZOhcXlo2KedM7BulDs65Y2XDtBLzgZkUs4mqeaij_B8qpdab-iKl_vOg5sVrt4G79ZWX7AKG7l7IVOvMY3fGnjXVS6K7bXgwIqteH2LTVClWdvUBKBmXjudJObN4I-tU5OlQlZaffssQMeIVlk86A85dkSshJ7l4FksiApn-K1bMweJd9CY5Avc6vHz_uRlgIDHbzAbNzVqAMEDS4-xBD8nwmZar-nxFxC1zYx848f5RdUddqwOZQgpiG1_5xjNvd3j86s_2nZPeWxVxjtVG2oKMKy8emqxhZ18zqjXanrs_iDn-nN0KLZrIDQf3MKC9W4=w711-h947-no?authuser=0" alt="">
+        </div>
+        <div class="nameElder">
+            <h1 id="nameDigited">Elder Mota</h1>
+        </div>
+        <div class="nameMission">
+            <h2 id="missionDigited">Canada Toronto Mission</h2>
+        </div>
+        <div class="flag">
+            <img id="flagSelected" src="images/canada.jpg" alt="Foto de Missão">
+    
+        </div>
+        <div class="year">
+            <h3 id="yearDigited">2019-2021</h3>
+        </div>
+        <div class="email">
+            <h4 id="emailDigited"></h4>
+        </div>
+    </div>      
+
+    <div id="forms">
+        <div id="formsBox">
+                <label class="fotoText" for="file">Foto de Missão</label>
+                <input class="fileText" type="file"  accept="image/png, image/jpeg" >
+                <input class="boxText" type="text" id="elderName" placeholder="Nome de Missionário">
+                <input class="boxText" type="text" id="missionName" placeholder="Nome da Missão"> 
+                <select id="flagsSelection" onchange="getSelectValue();">
+                    <option value="canadaF">Canadá</option>
+                    <option value="brazilF">Brasil</option>
+                    <option value="mexicoF">Mexico</option>
+                    <option value="euaF">Estados Unidos</option>
+                    <option value="portugalF">Portugal</option>
+                    <option value="argentinaF">Argentina</option>
+                </select>
+                <input class="boxText" type="text" id="yearMission" placeholder="Ano de Serviço">
+                <input class="boxText" type="text" id="emailMission" placeholder="E-mail de Missãos">
+                <input id="sendBtn" type="submit" onclick="capturar()" value="Enviar"> 
+        </div>
+                   
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
