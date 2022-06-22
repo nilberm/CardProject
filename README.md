@@ -4,4 +4,4 @@ Fiz esse projeto porque tinha um amigo que queria criar um programa para consegu
 
 Aprendi bastante com esse projeto, pois fiz ele só com html, css e javacript, então pude aprender a como trabalhar com fotos que são enviadas e colocar elas na proporção certa do cartão.
 
-![img]([https://imgur.com/89JEb3K](https://i.imgur.com/89JEb3K.png))
+![img](https://i.imgur.com/89JEb3K.png)
